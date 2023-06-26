@@ -1,0 +1,106 @@
+body {
+    background-image: url(IMG_0107.JPG);
+    background-size: cover;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+h1, p {
+    display: block;
+    text-align: center;
+}
+
+p:not(.footer) {
+    font-style: italic;
+}
+
+fieldset {
+    background-color: rgba(157, 151, 168, 0.85);
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.label {
+    display: block;
+    text-align: left;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    display: block;
+    height: 20px;
+}
+
+.text, .role {
+    display: block;
+    width: 98%;
+    border-radius: 5px;
+    border: none;
+    margin: 5px 0px 15px 0px;
+    height: 25px;
+}
+
+.role {
+    width: 98.5%;
+}
+
+.radiocenter {
+    display: flex;
+    align-items: center;
+}
+
+#linkedin {
+    display: block;
+}
+
+#yes, #no {
+    display: inline-flex;
+    margin: 5px 0;
+}
+
+.radiotext {
+    margin-left: 10px;
+}
+
+.checkbox-text {
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.checkbox-space {
+    margin-left: 5px;
+}
+
+#comments {
+    display: block;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+
+#submit {
+    margin: 10px 5px;
+    padding: 4px 12px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: rgb(87, 84, 93);
+    color:rgb(219, 219, 219);
+    font-size: 20px;
+}
+
+.comments-margin {
+    margin-top: 100px;
+}
+
+footer {
+    color: antiquewhite;
+}
